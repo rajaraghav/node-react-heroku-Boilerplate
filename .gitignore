@@ -1,1 +1,5 @@
 /config/dev.js
+/config/dev.js
+/node_modules
+/client//node_modules
+/client/src/sass

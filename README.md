@@ -2,8 +2,6 @@
 
 Boilerplate code for getting started on a node(backend), react(frontend) and Heroku(deployment).
 
-# Node react+sass heroku is available on sass branch.
-
 ## Setup
 
 * concurrently package to run node and client server together.
