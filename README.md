@@ -1,4 +1,4 @@
-# node-react-heroku-Boilerplate
+# node-react+sass-heroku-Boilerplate
 
 Boilerplate code for getting started on a node(backend), react(frontend) and Heroku(deployment).
 
