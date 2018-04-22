@@ -1,4 +1,4 @@
-# node-react+sass-heroku-Boilerplate
+# node-react+sass+redux-heroku-Boilerplate
 
 Boilerplate code for getting started on a node(backend), react(frontend) and Heroku(deployment).
 
@@ -13,6 +13,8 @@ Boilerplate code for getting started on a node(backend), react(frontend) and Her
 * build process consisting concat, auto-prefix, compress, compile operations.
 * ./client/src/sass/main.scss gets compiled to ./client/src/App.css.
 * node-sass watches for any change in file, i.e. changes take effect without reloading.
+* redux, react-redux, redux-thunk setup.
+* react-router setup
 
 ```
 //inside repo directory run this command on terminal.
