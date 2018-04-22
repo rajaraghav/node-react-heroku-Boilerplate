@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 import * as actions from "../Action";
 import Header from "./Header";
 import Dashboard from "./Dashboard";
+import "./App.css";
 
 class App extends Component {
   componentDidMount() {
