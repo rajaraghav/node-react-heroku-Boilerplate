@@ -1,6 +1,8 @@
 # node-react+sass-heroku-Boilerplate
 
-Boilerplate code for getting started on a node(backend), react(frontend) and Heroku(deployment).
+Boilerplate code for getting started on a node(backend), react(frontend)+sass(compiler) and Heroku(deployment).
+
+# node-react+sass+redux-heroku-Boilerplate available on redux branch.
 
 ## Setup
 
