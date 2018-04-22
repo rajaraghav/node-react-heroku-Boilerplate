@@ -30,7 +30,14 @@ npm run client
 
 ## Downloading/cloning and installing dependencies directions.
 
-* download/clone repository.
+* download/clone repository by typing following command in terminal.
+
+```
+git clone -b redux --single-branch https://github.com/rajaraghav/node-react-heroku-Boilerplate.git
+
+//this would allow you to clone only the redux branch.
+```
+
 * open terminal.
 * go to repo location, inside terminal window.
 * start typing.
