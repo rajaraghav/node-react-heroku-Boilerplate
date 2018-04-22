@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "proxy": {
-    "/user": {
+    "/current_user": {
       "target": "http://localhost:5000"
     }
   },
@@ -27,8 +27,10 @@
     "startw": "npm-run-all --parallel start watch:sass",
     "compile:sass": "node-sass src/sass/main.scss css/App.comp.css",
     "concat:css": "concat -o css/App.concat.css css/App.comp.css",
-    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/App.concat.css -o css/App.prefix.css",
-    "compress:css": "node-sass css/App.prefix.css css/App.css --output-style compressed",
+    "prefix:css":
+      "postcss --use autoprefixer -b 'last 10 versions' css/App.concat.css -o css/App.prefix.css",
+    "compress:css":
+      "node-sass css/App.prefix.css css/App.css --output-style compressed",
     "build:css": "npm-run-all compile:sass concat:css prefix:css compress:css"
   },
   "devDependencies": {
